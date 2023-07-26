@@ -1,0 +1,59 @@
+#service-grid > div h1{
+	font-size: 50px;
+	font-weight: 400;
+	color: var(--maroon);
+	line-height: 61.2px;
+	margin-top: 100px !important;
+}
+#service-grid{
+	padding-right: 35px !important;
+}
+#service-grid > div p{
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 36.72px;
+}
+.find-out{
+	font-size: 20px !important;
+	font-weight: 400 !important;
+	line-height: 30px !important;
+	color: #fff !important;
+	text-transform: capitalize;
+	background-color: var(--maroon) !important;
+}
+#service-container{
+	background-color: #EEEEEE;
+}
+.service-box{
+	width: 100%;
+	height: 100%;
+}
+.service-box img{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+#grid-head{
+	color: var(--maroon);
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 42.84px;
+}
+#grid-head-color{
+	background-color: #EEEEEE;
+}
+#grid-service{
+	grid-gap: 35px;
+	align-items: center;
+	justify-content: space-around;
+}
+#grid-service > div{
+	background-color: #fff;
+	cursor: pointer;
+	transition: .5s all;
+}
+#grid-service > div:hover{
+	background-color: #47747E;
+	color: white;
+}

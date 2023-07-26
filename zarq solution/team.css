@@ -1,0 +1,86 @@
+#team-main{
+	height: calc(100vh - 7vh);
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255 , 255, 0.5) 50%), url("image/hand2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+#team-main > div h3{
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 42.84px;
+}
+#team-main > div h1{
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 61.2px;
+}
+#team-main > div span{
+	color: var(--maroon);
+}
+.para-box{
+	max-width: 800px;
+	background-color: rgba(255,255,255,0.4);
+	backdrop-filter: blur(5px);
+	padding: 9px;
+	font-size: 20px;
+}
+#teams{
+	padding-left: 62px !important;
+	padding-right: 100px !important;
+}
+.card{
+	border: 1px solid var(--maroon) !important;
+	border-radius: 30px !important;
+}
+.card-img-top{
+	margin-left: 80px;
+}
+.card .card-body{
+	background-color: var(--maroon);
+	height: calc(100% - 90%) !important;
+	color: #fff;
+	transition: .5s ease-out;
+	border-radius: 0px 0px 30px 30px;
+}
+.card:hover .card-body{
+	background-color: #47747E;
+}
+.card:hover .card-body > h4{
+	display: none !important;
+}
+.card:hover .card-body > .card-text{
+	display: none !important;
+}
+.card{
+	position: relative;
+}
+.card-hover{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 0;
+	background-color: var(--maroon);
+	opacity: 0;
+	text-align: center;
+	transition: .5s all;
+	color: #fff;
+	border-radius: 30px !important;
+
+
+}
+.card:hover .card-hover{
+	opacity: 0.6 !important;
+	height: 100% !important;
+	cursor: pointer !important;
+
+}
+#footer{
+	padding-left: 70px !important;
+	padding-right: 70px !important;
+}
+.footer{
+	padding-right: 80px !important;
+	padding-left: 80px !important;
+}
